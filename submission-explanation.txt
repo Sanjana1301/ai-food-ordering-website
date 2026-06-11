@@ -1,0 +1,63 @@
+AI Homework Submission Explanation
+
+Task: Create a functional local website with 5 modules.
+
+Website Name: TastyBite - Food Ordering Website
+
+Website Modules:
+1. Home
+2. Menu
+3. Cart
+4. About Us
+5. Contact Us
+
+Implemented Functionalities:
+- Working navigation links
+- Food menu display
+- Search food items
+- Filter food by category
+- Add items to cart
+- Increase/decrease item quantity
+- Remove item from cart
+- Total price calculation
+- Clear cart
+- Place order button with validation
+- Contact form validation
+- Responsive design for mobile and desktop
+
+Initial Prompt:
+Create a website using HTML, CSS and JavaScript.
+
+Improved Prompt:
+Create a responsive Food Ordering website using HTML, CSS and JavaScript. The website should contain five modules: Home, Menu, Cart, About Us and Contact Us. Navigation links should be clickable. Users should be able to search food items, filter items by category, add and remove items from the cart, increase or decrease quantity, and see the total price update automatically. Contact form should validate required fields and email format. Use clean design and organize the code into separate HTML, CSS and JavaScript files.
+
+Why the Improved Prompt is Better:
+The improved prompt is better because it is clear and specific. It explains the website topic, required modules, technologies, expected functionality, design expectation and output structure. Because of this, the AI can generate a more complete and functional website instead of only a simple static HTML page.
+
+Features of a Good Prompt:
+1. Clear objective
+2. Proper context
+3. Specific requirements
+4. Expected output format
+5. Mention of technology/tools
+6. Functional requirements
+7. Design or UI expectations
+8. Constraints or rules
+
+Mistakes Found in AI Answers:
+1. Initial AI response created only a simple HTML page.
+2. Some links were not functional in the first version.
+3. Cart functionality was missing or incomplete.
+4. Contact form validation was not added properly.
+5. Code was not organized into separate files.
+6. Some buttons looked clickable but did not perform any action.
+7. Responsive design needed improvement.
+8. Final code required review and correction before deployment.
+
+AI Tools That Can Help:
+- ChatGPT: Prompt improvement, code generation, debugging and explanation.
+- GitHub Pages: To publish the website using a public link.
+- Netlify or Vercel: Alternative tools to host the website and make it visible to the mentor.
+
+Note:
+The final website is functional and not only a simple HTML page. It includes working modules and JavaScript-based functionality.

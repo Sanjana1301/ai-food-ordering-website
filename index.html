@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TastyBite - Food Ordering Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">🍔 TastyBite</div>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#cart">Cart <span id="cartCount">0</span></a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Module 1: Home -->
+    <section id="home" class="hero module">
+      <div class="hero-content">
+        <h1>Fresh Food Delivered Fast</h1>
+        <p>Order burgers, pizza, pasta and drinks from one simple website.</p>
+        <a href="#menu" class="btn">Order Now</a>
+      </div>
+    </section>
+
+    <!-- Module 2: Menu -->
+    <section id="menu" class="module">
+      <h2>Our Menu</h2>
+      <p class="section-text">Search items or filter by category.</p>
+
+      <div class="tools">
+        <input type="text" id="searchInput" placeholder="Search food item..." />
+        <select id="categoryFilter">
+          <option value="all">All Categories</option>
+          <option value="burger">Burger</option>
+          <option value="pizza">Pizza</option>
+          <option value="pasta">Pasta</option>
+          <option value="drink">Drink</option>
+        </select>
+      </div>
+
+      <div id="menuContainer" class="menu-grid"></div>
+    </section>
+
+    <!-- Module 3: Cart -->
+    <section id="cart" class="module">
+      <h2>Your Cart</h2>
+      <div id="cartItems" class="cart-box">
+        <p>Your cart is empty.</p>
+      </div>
+      <div class="cart-summary">
+        <h3>Total: ₹<span id="totalPrice">0</span></h3>
+        <button id="clearCartBtn" class="btn secondary">Clear Cart</button>
+        <button id="placeOrderBtn" class="btn">Place Order</button>
+      </div>
+      <p id="orderMessage" class="message"></p>
+    </section>
+
+    <!-- Module 4: About -->
+    <section id="about" class="module about">
+      <h2>About Us</h2>
+      <p>
+        TastyBite is a small online food ordering website created as an AI homework project.
+        It includes five modules and real JavaScript functionality like cart management,
+        search, filtering and form validation.
+      </p>
+      <div class="about-cards">
+        <div>
+          <h3>Fast Delivery</h3>
+          <p>Fresh food delivered quickly.</p>
+        </div>
+        <div>
+          <h3>Quality Food</h3>
+          <p>Prepared with fresh ingredients.</p>
+        </div>
+        <div>
+          <h3>Easy Ordering</h3>
+          <p>Add, remove and order items easily.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Module 5: Contact -->
+    <section id="contact" class="module">
+      <h2>Contact Us</h2>
+      <form id="contactForm" class="contact-form">
+        <input type="text" id="name" placeholder="Your Name" />
+        <input type="email" id="email" placeholder="Your Email" />
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p id="formMessage" class="message"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 TastyBite. AI Homework Functional Website.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
